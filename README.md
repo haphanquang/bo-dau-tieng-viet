@@ -3,10 +3,14 @@ String extension để xoá dấu, phục vụ cho tìm kiếm, lọc.
 
 # Demo
 ```
-let sample1 = "Tiếng Việt".folded  //"Tieng Viet"
-let sample2 = "Nghiêng nước nghiêng thành!".folded  //"Nghieng nuoc nghieng thanh!"
-let sample3 = "Chị ngã em nâng".folded //"Chi em nang"
-let sample4 = "Sống từng ngày. Chết từng ngày. Còn sống một ngày là hẹn chết mai đây".folded 
+print("Tiếng Việt".folded)
+//"Tieng Viet"
+print("Nghiêng nước nghiêng thành!".folded)
+//"Nghieng nuoc nghieng thanh!"
+print("Chị ngã em nâng".folded)
+//"Chi em nang"
+print("Sống từng ngày. Chết từng ngày. Còn sống một ngày là hẹn chết mai đây".folded)
 //"Song tung ngay. Chet tung ngay. Con song mot ngay la hen chet mai day"
-
+print("Sống trong đời sống cần có một tấm lòng. Để làm gì em biết không? Để gió cuốn đi, để gió cuốn đi.".folded)
+//Song trong doi song can co mot tam long. De lam gi em biet khong? De gio cuon di, de gio cuon di.
 ```
